@@ -1,0 +1,11 @@
+project:
+  output-dir: public
+  render:
+    - "*.qmd"
+
+format:
+  revealjs:
+    footer: "Global Day of Codereatreat 2022 by Softwerkskammer Wien at Nagarro"
+    incremental: false  ## https://quarto.org/docs/presentations/revealjs/#incremental-lists
+    theme: simple  ## https://quarto.org/docs/presentations/revealjs/#themes
+    logo: https://placeholder.pics/svg/50/FF07FF/Replace%20with%20logo

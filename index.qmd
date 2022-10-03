@@ -1,0 +1,3 @@
+# Global Day of Codereatreat 2022
+
+{{< include sessions/template/_content.qmd >}}

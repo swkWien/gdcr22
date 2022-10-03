@@ -1,0 +1,6 @@
+# Exclude Quarto project
+/.quarto/
+# Exclude build
+public/
+# Custom
+*private*
