@@ -1,0 +1,5 @@
+## 💻 Coding
+
+- Pair Programming
+- TDD
+- Focus on Constraints

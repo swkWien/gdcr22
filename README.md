@@ -1,10 +1,8 @@
-# Global Day of Coderetreat 2022 by Softwerkskammer Wien at Nagarro
+# Global Day of Coderetreat 2022 by Softwerkskammer Wien
 
-Landing page and facilitation slides.
+Hosted by [Nagarro](https://www.nagarro.com/de).
 
-## About Event
-
-TODO
+**Landing page and facilitation slides.**
 
 ## Contributing
 
@@ -13,7 +11,7 @@ TODO
 Download and install [Quarto](https://quarto.org/), a Markdown-oriented publishing system.
 
 (Installation is only necessary if you want to build the slides locally. You can also inspect
-the rendered slides [here](TODO).)
+the rendered slides [here](https://swkwien.github.io/gdcr22/).)
 
 ### Add Content
 

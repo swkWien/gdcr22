@@ -1,3 +1,7 @@
-# Global Day of Codereatreat 2022
+{{< include sessions/0_intro/_content.qmd >}}
 
-{{< include sessions/template/_content.qmd >}}
+{{< include sessions/1_kata/_content.qmd >}}
+
+{{< include sessions/i_template/_content.qmd >}}
+
+{{< include sessions/n_outro/_content.qmd >}}
