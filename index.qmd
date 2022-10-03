@@ -1,3 +1,5 @@
+{{< include sessions/_0_landing/_content.qmd >}}
+
 {{< include sessions/0_intro/_content.qmd >}}
 
 {{< include sessions/1_kata/_content.qmd >}}
