@@ -1,12 +1,14 @@
 # Global Day of Coderetreat
 
 *A day of deliberate practice and learning.*
+TODO For the community by the community
 
 - What?
   - Pair programming and test-driven development
-  - Decoupled design
+  - Focus on decoupled design
 - When? TODO
 - Where? TODO
-- How to join? Register TODO: eventbrite link
+- Who can join? Everyone interested in ...
+- How to join? Mandatory registration here TODO: eventbrite link
 
 **Looking forward to seeing you soon!**
