@@ -1,3 +1,6 @@
+# Conclusion
+
+---
 
 ## 🤔 Final Retrospective
 
@@ -8,28 +11,23 @@
 
 ---
 
-TODO
-
-### [Feedback]()
+## [Feedback](TODO)
 
 Please take a few minutes, we appreciate your input.
 
 ---
 
-### 🤝 Join us on [Softwerkskammer.org](https://www.softwerkskammer.org/)
+## 🤝 Join us on [Softwerkskammer.org](https://www.softwerkskammer.org/)
 
 (The Vienna chapter.)
 
 ---
 
-# Global Day of Coderetreat
-
-by swkWien at Nagarro
-
-<br>
+## Global Day of Coderetreat
 
 *A day of deliberate practice and learning.*
 
-<br>
+<br/>
+<br/>
 
 **Thank you for joining us today!** 🥳

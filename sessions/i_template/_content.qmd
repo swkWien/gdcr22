@@ -1,6 +1,4 @@
-## Title of your session
-
-TBD: Discuss format(ting)
+# Title of your session
 
 Focus: TODO
 
@@ -8,7 +6,7 @@ Facilitator: TODO
 
 ---
 
-### Focus
+## Focus
 
 * ...
 
@@ -16,11 +14,11 @@ Facilitator: TODO
 
 ---
 
-### Bar
+## Bar
 
 ---
 
-### Baz
+## Baz
 
 ---
 

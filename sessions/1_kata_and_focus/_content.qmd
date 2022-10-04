@@ -1,0 +1,26 @@
+# Today's Practice
+
+---
+
+## Our Kata: TODO
+
+https://g.co/kgs/5Sxo4e
+
+* A snake moves.
+* The player makes it turn.
+* Collect points by eating apples.
+* If the snake runs into a wall or itself, the game is over.
+
+*Implement a console game.*
+
+---
+
+## Our Mode of Work: TDD & Pair Programming
+
+---
+
+## Our Focus: Decoupled Design
+
+---
+
+## Questions?
