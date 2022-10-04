@@ -15,11 +15,18 @@
 
 Please take a few minutes, we appreciate your input.
 
+TODO:
+- Use a poster?
+- Add QR code for feedback form
+
 ---
 
 ## 🤝 Join us on [Softwerkskammer.org](https://www.softwerkskammer.org/)
 
 (The Vienna chapter.)
+
+TODO:
+- Add QR code to website
 
 ---
 
