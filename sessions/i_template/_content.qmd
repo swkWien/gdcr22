@@ -16,6 +16,8 @@ Facilitator: TODO
 
 ## Bar
 
+You can use unicode emojis 👍 or fontawesome {{< fa thumbs-up >}} if you prefer that.
+
 ---
 
 ## Baz
