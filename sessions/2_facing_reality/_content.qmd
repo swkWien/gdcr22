@@ -6,17 +6,21 @@ Facilitator: Patrick Scheibert, Katrin Heiderer
 
 ---
 
-## Code Review, Refactoring, Pair Programming
+## Code Review, Refactoring, 
+## Pair Programming
 
-* Read the code ("read by refactoring")
-* Which design elements (aka classes) are there?
-* How are they connected? Which classes hold which data?
-* Which classes are doing what?
-* Compare with your diagrams from session 1.
+* <i>Read the code ("read by refactoring")</i>
+* <i>Which design elements (aka classes) are there?</i>
+* <i>How are they connected? Which classes hold which data?</i>
+* <i>Which classes are doing what?</i>
+* <i>Compare with your diagrams from session 1.</i>
 
 ---
 
-## TIPS
+## Tips
+
+
+
 
 * Start with small IDE Refactoring steps. 
 * Rename the variables so they are more meaningful.
@@ -24,19 +28,17 @@ Facilitator: Patrick Scheibert, Katrin Heiderer
 
 ---
 
-## EXTRA CHALLENGE
+## Extra Challenges
 
 Optional, for experienced participants:
 
-<br>One Level of Indentation</br>
+### One Level of Indentation
 Each method cannot contain statements that require more than one level of indentation (conditional statements, loops, etc) 
 
-or
+        or
 
 ### Short methods
 Limit the number of statements permitted for a function to 5 lines. 
-
-<b> test</b>
 
 ---
 
