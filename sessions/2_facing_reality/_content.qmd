@@ -16,13 +16,27 @@ Facilitator: Patrick Scheibert, Katrin Heiderer
 
 ---
 
-## Bar
+## TIPS
 
-You can use unicode emojis 👍 or fontawesome {{< fa thumbs-up >}} if you prefer that.
+* Start with small IDE Refactoring steps. 
+* Rename the variables so they are more meaningful.
+* Extract Methods to reduce complexity of the code.
 
 ---
 
-## Baz
+## EXTRA CHALLENGE
+
+Optional, for experienced participants:
+
+<br>One Level of Indentation</br>
+Each method cannot contain statements that require more than one level of indentation (conditional statements, loops, etc) 
+
+or
+
+### Short methods
+Limit the number of statements permitted for a function to 5 lines. 
+
+<b> test</b>
 
 ---
 
@@ -36,8 +50,6 @@ You can use unicode emojis 👍 or fontawesome {{< fa thumbs-up >}} if you prefe
 
 {{< include ../_retrospective.qmd >}}
 
-* Question A
-* Question B
 
 ---
 
