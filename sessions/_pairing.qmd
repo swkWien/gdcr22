@@ -1,1 +1,3 @@
 ## 🤝 Find a Pair
+
+![Example on how to add a figure, take a look at the path](programming.png)
