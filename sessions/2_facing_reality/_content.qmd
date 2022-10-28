@@ -1,12 +1,12 @@
-# Title of your session
+# Session 2
 
-Focus: TODO
+Focus: Code Review, Refactoring, Pair Programming
 
-Facilitator: TODO
+Facilitator: Patrick Scheibert, Katrin Heiderer
 
 ---
 
-## Focus
+## Facing Reality
 
 * ...
 
