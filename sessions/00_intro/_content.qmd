@@ -18,7 +18,7 @@ Who wants to join the dinner?
 
 ## Is this your first Coderetreat?
 
-Please raise your hand.
+*Please raise your hand.*
 
 ---
 
@@ -73,30 +73,29 @@ We write tests first: *Test Driven Development*
 
 ---
 
-## Schedule
+## Schedule 🕤
 
 | Time | Topic  |
 |------|--------|
 |     | Welcome at Nagarro  |
 | 09:30 | Intro Coderetreat  |
-|     | Session 1 by Claus Aichinger  |
-|     | Session 2 by Peter Kofler  |
-|     | Session 3 by Paul Rohorzka  |
+|     | Session 1 by Peter Kofler |
+|     | Session 2 by Katrin  |
+|     | Session 3 by Adam Zielinksi  |
 | 12:30 | Lunch Break  |
-|     | Session 4 by Rea Sutter  |
-|     | Session 5 by Adam Zielinksi  |
+|     | Session 4 by Claus Aichinger |
+|     | Session 5 by Roland Germ  |
 |     | Final Retrospective
 | 17:00 | Closing |
 
 ---
 
-## About us
+## About us 👋
 
 *Facilitators in order of appearance.*
 
-- Claus Aichinger, [@clausaichinger](https://twitter.com/ClausAichinger)
 - Peter Kofler, [@codecopkofler](https://twitter.com/codecopkofler)
-- Paul Rohorzka, [@paulroho](https://twitter.com/paulroho)
+- Claus Aichinger, [@clausaichinger](https://twitter.com/ClausAichinger)
 - Rea Sutter
 - Adam Zielinski
 
