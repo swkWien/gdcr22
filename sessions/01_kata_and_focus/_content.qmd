@@ -1,68 +1,77 @@
-# Today's Practice
+# Today's Practice 🥷
 
 ---
 
-## Our Kata: Supermarket Receipt Refactoring Kata 🛍️🛒🧾
-
-https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata
+## Supermarket Receipt 🛒🧾🛍️
 
 For a collection of items in the shopping cart
+
 1. look up prices,
 1. apply discounts,
 1. compute total and
 1. generate receipt.
 
-*The code is already there.*
+*The code is there, we want to improve it.*
+
+::: {.r-fit-text}
+[https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata](https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata)
+:::
 
 ---
 
-## Our Mode of Work: Pair Programming, Refactoring & Test-driven Development
-
----
-
-### Pair Programming 🤝
+## Pair Programming 🤝
 
 Roles:
-- 🧭 Navigator: Giving directions, looking ahead
-- 🚗 Driver: Manipulating the code, concerned with small details
+
+- 🧭 **Navigator** Giving directions, looking ahead
+- 🚗 **Driver** Manipulating the code, concerned with small details
 
 Procedure:
+
 - Talk to each other
 - Switch roles every **5 minutes**
 
 ---
 
-### Refactoring 🔧 & Test-driven Development 🧪
+## Refactoring 🔧
 
-Refactoring:
 - Improve code but don't change behavior
+
 - Don't break interfaces
 
-Test-driven development:
+---
+
+## Test-driven Development 🧪
+
 - If you write new code, write a test first
+
 - If you change code, is it covered by tests?
 
 ---
 
-## Our Focus: Decoupled Design 🤔
+## Decoupled Design 🤔
 
----
+. . .
 
 > What is *design*?
 
----
+. . .
 
 > What is *coupling*?
 
+. . .
+
+*That's today's practice: decouple design!*
+
 ---
 
-## Our Focus: Decoupled Design 🤓
+<!-- TODO: visualize that -->
 
-Procedure:
-- Approach same problem repeatedly
+## How do we get there? 🤓
+
+- Revisit same problem repeatedly
+
 - Try different strategies to improve design
-
-*The code is already there - the flaws as well.*
 
 ---
 
