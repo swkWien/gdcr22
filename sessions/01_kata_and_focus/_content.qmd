@@ -57,7 +57,11 @@ Procedure:
 
 . . .
 
-*That's today's practice: decouple design!*
+> Why does it matter?
+
+...
+
+*Today's practice: strategies to decouple design!*
 
 ---
 
