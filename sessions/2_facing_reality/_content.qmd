@@ -19,7 +19,7 @@ Facilitator: Patrick Scheibert, Katrin Heiderer
 
 ## Tips
 
-* Start with small IDE Refactoring steps. 
+* Start with small IDE Refactoring steps.
 * Rename the variables so they are more meaningful.
 * Extract Methods to reduce complexity of the code.
 
@@ -30,12 +30,12 @@ Facilitator: Patrick Scheibert, Katrin Heiderer
 Optional, for experienced participants:
 
 ### One Level of Indentation
-Each method cannot contain statements that require more than one level of indentation (conditional statements, loops, etc) 
+Each method cannot contain statements that require more than one level of indentation (conditional statements, loops, etc)
 
-#### 
+####
 
 ### Short methods
-Limit the number of statements permitted for a function to 5 lines. 
+Limit the number of statements permitted for a function to 5 lines.
 
 ---
 
@@ -49,6 +49,7 @@ Limit the number of statements permitted for a function to 5 lines.
 
 {{< include ../_retrospective.qmd >}}
 
+<!-- TODO add retro questions -->
 
 ---
 
