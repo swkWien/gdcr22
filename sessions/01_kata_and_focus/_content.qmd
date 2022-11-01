@@ -11,11 +11,7 @@ For a collection of items in the shopping cart
 1. compute total and
 1. generate receipt.
 
-*The code is there, we want to improve it.*
-
-::: {.r-fit-text}
-[https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata](https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata)
-:::
+More about the assignment in the first session.
 
 ---
 
