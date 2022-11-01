@@ -1,6 +1,7 @@
 {{< include sessions/_00_landing/_content.qmd >}}
 {{< include sessions/00_intro/_content.qmd >}}
 {{< include sessions/01_kata_and_focus/_content.qmd >}}
+{{< include sessions/02_pen_and_paper/_content.qmd >}}
 {{< include sessions/03_facing_reality/_content.qmd >}}
 {{< include sessions/i_template/_content.qmd >}}
 {{< include sessions/n_outro/_content.qmd >}}
