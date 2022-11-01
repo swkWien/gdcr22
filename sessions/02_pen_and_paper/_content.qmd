@@ -2,17 +2,17 @@
 
 Focus: Familiarize yourself with the problem.
 
-Facilitator: Peter Kofler, [@codecopkofler](https://twitter.com/codecopkofler)
+Facilitator: Peter Kofler [@codecopkofler](https://twitter.com/codecopkofler)
 
 ---
 
 ## Our Kata: Supermarket Pricing
 
-![Supermarket](sessions/1_kata_and_focus/Supermarket.jpg)
+![](sessions/02_pen_and_paper/Supermarket.jpg)
 
 ---
 
-### Pricing goods at supermarkets
+## Pricing goods at supermarkets {.smaller}
 
 * The supermarket has a catalogue with different products (rice, apples, etc.).
 * Each product has a price.
@@ -48,7 +48,8 @@ Only work on requirements listed above!
 
 ## Extra Challenge: Decoupled Design
 
-* Do we need to get data from somewhere? Do we need to write/print/format data somewhere?
+* Do we need to get data from somewhere?
+* Do we need to write/print/format data somewhere?
 * Which "concerns" are there? (If concern means anything to you.)
 * Which domains/subdomains are involved? (If domain means anything to you.)
 
