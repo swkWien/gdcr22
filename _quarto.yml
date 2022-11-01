@@ -4,7 +4,10 @@ project:
 
 format:
   revealjs:
+    center: true
+    scrollable: true
     footer: "Global Day of Codereatreat 2022 by [Softwerkskammer Wien](https://swkwien.github.io/) at [Nagarro](https://www.nagarro.com/de)"
     incremental: false  ## https://quarto.org/docs/presentations/revealjs/#incremental-lists
     theme: simple  ## https://quarto.org/docs/presentations/revealjs/#themes
     logo: https://www.coderetreat.org/assets/logo-300x.png
+    # auto-stretch: true  # https://quarto.org/docs/presentations/revealjs/advanced.html#stretch
