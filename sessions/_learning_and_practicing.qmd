@@ -1,5 +1,3 @@
-## 💻 Coding
+## Deliberate Practice and Learning 🤓
 
-- Pair Programming
-- Refactor in small steps
-- Focus on Constraints
+![](sessions/programming.png)
