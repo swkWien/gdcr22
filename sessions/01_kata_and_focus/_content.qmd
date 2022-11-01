@@ -59,15 +59,15 @@ Procedure:
 
 > Why does it matter?
 
-...
+. . .
 
 *Today's practice: strategies to decouple design!*
 
 ---
 
-<!-- TODO: visualize that -->
-
 ## How do we get there? 🤓
+
+<!-- TODO: visualize that -->
 
 - Revisit same problem repeatedly
 

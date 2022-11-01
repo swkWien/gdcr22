@@ -47,9 +47,10 @@ Practice - reflect - improve! 🥳
 
 ---
 
-<!-- TODO Update schedule-->
 
 ## Schedule 🕤 {.smaller}
+
+<!-- TODO Update schedule-->
 
 | Time | Topic  |
 |------|--------|
@@ -66,17 +67,17 @@ Practice - reflect - improve! 🥳
 
 ---
 
-<!-- TODO Update twitter?-->
-
 ## About us 👋
+
+<!-- TODO Update twitter?-->
 
 *Facilitators in order of appearance.*
 
-- Peter Kofler, [@codecopkofler](https://twitter.com/codecopkofler)
+- Peter Kofler [@codecopkofler](https://twitter.com/codecopkofler)
 - Katrin Heiderer &
   Patrick Scheibert
 - Adam Zielinski
-- Claus Aichinger, [@clausaichinger](https://twitter.com/ClausAichinger)
+- Claus Aichinger [@clausaichinger](https://twitter.com/ClausAichinger)
 - Roland Germ
 
 ---
