@@ -48,28 +48,28 @@ Limit the number of statements permitted for a function to 5 lines.
 
 ---
 
-{{< include sessions/_pairing.qmd >}}
+{{< include ../_pairing.qmd >}}
 
 ---
 
-{{< include sessions/_learning_and_practicing.qmd >}}
+{{< include ../_learning_and_practicing.qmd >}}
 
 ---
 
-{{< include sessions/_retrospective.qmd >}}
+{{< include ../_retrospective.qmd >}}
 
 * "I agree / Don't agree"
 
 ---
 
-{{< include sessions/_retrospective.qmd >}}
+{{< include ../_retrospective.qmd >}}
 
-* Which refactorings did you do? 
+* Which refactorings did you do?
 
 * Which classnames/methodnames did you change?
 
-* What was your experience in the pairs with different languages? 
+* What was your experience in the pairs with different languages?
 
 ---
 
-{{< include sessions/_short_break.qmd >}}
+{{< include ../_short_break.qmd >}}

@@ -8,7 +8,7 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ## Domain and Bounded Contexts
 
-Bounded Context is a central pattern in Domain-Driven Design. DDD deals with large models by dividing them into different 
+Bounded Context is a central pattern in Domain-Driven Design. DDD deals with large models by dividing them into different
 Bounded Contexts and being explicit about their interrelationships.
 
 
@@ -37,23 +37,23 @@ Bounded Contexts and being explicit about their interrelationships.
 
 ## Extra Challenge: Don't share the Product between domains
 
-The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product. 
+The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product.
 * What is needed to identify a product in a domain?
 * Which domain does the Printer belong to?
 
 ---
 
-{{< include sessions/_pairing.qmd >}}
+{{< include ../_pairing.qmd >}}
 
 ---
 
-{{< include sessions/_learning_and_practicing.qmd >}}
+{{< include ../_learning_and_practicing.qmd >}}
 
 ---
 
-{{< include sessions/_retrospective.qmd >}}
+{{< include ../_retrospective.qmd >}}
 
-* Which domains did you create ? 
+* Which domains did you create ?
 * Which dependencies do you have finally?
 * How did name the ports and adapters?
 * What constructs hindered you?

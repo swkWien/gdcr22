@@ -55,15 +55,15 @@ Only work on requirements listed above!
 
 ---
 
-{{< include sessions/_pairing.qmd >}}
+{{< include ../_pairing.qmd >}}
 
 ---
 
-{{< include sessions/_learning_and_practicing.qmd >}}
+{{< include ../_learning_and_practicing.qmd >}}
 
 ---
 
-{{< include sessions/_retrospective.qmd >}}
+{{< include ../_retrospective.qmd >}}
 
 * Which parts are "different"?
 * Which components did you identify?
@@ -71,4 +71,4 @@ Only work on requirements listed above!
 
 ---
 
-{{< include sessions/_short_break.qmd >}}
+{{< include ../_short_break.qmd >}}
