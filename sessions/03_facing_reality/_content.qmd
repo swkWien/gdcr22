@@ -58,7 +58,17 @@ Limit the number of statements permitted for a function to 5 lines.
 
 {{< include ../_retrospective.qmd >}}
 
-<!-- TODO add retro questions -->
+* "I agree / Don't agree"
+
+---
+
+{{< include ../_retrospective.qmd >}}
+
+* Which refactorings did you do? 
+
+* Which classnames/methodnames did you change?
+
+* What was your experience in the pairs with different languages? 
 
 ---
 
