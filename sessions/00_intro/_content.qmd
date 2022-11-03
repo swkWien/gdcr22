@@ -58,7 +58,7 @@ Practice - reflect - improve! 🥳
 | 09:30 | Intro Coderetreat  |
 |     | Session 1 by Peter Kofler |
 |     | Session 2 by Patrick Scheibert & Katrin Heiderer  |
-|     | Session 3 by Adam Zielinksi  |
+|     | Session 3 by Adam Zielinski  |
 | 12:30 | Lunch Break  |
 |     | Session 4 by Claus Aichinger |
 |     | Session 5 by Roland Germ  |
