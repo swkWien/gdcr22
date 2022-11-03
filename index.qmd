@@ -5,5 +5,4 @@
 {{< include sessions/03_facing_reality/_content.qmd >}}
 {{< include sessions/05_solid/_content.qmd >}}
 {{< include sessions/06_separate_domains/_content.qmd >}}
-{{< include sessions/i_template/_content.qmd >}}
 {{< include sessions/n_outro/_content.qmd >}}
