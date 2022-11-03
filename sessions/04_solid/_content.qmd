@@ -62,19 +62,19 @@ You can use unicode emojis 👍 or fontawesome {{< fa thumbs-up >}} if you prefe
 
 ---
 
-{{< include ../_pairing.qmd >}}
+{{< include sessions/_pairing.qmd >}}
 
 ---
 
-{{< include ../_learning_and_practicing.qmd >}}
+{{< include sessions/_learning_and_practicing.qmd >}}
 
 ---
 
-{{< include ../_retrospective.qmd >}}
+{{< include sessions/_retrospective.qmd >}}
 
 * Question A
 * Question B
 
 ---
 
-{{< include ../_short_break.qmd >}}
+{{< include sessions/_short_break.qmd >}}
