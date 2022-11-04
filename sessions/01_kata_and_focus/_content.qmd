@@ -17,6 +17,8 @@ More about the assignment in the first session.
 
 ## Pair Programming 🤝
 
+. . .
+
 Roles:
 
 - 🧭 **Navigator** Giving directions, looking ahead
@@ -31,6 +33,8 @@ Procedure:
 
 ## Refactoring 🔧
 
+. . .
+
 - Improve code but don't change behavior
 
 - Don't break interfaces
@@ -38,6 +42,8 @@ Procedure:
 ---
 
 ## Test-driven Development 🧪
+
+. . .
 
 - If you write new code, write a test first
 
@@ -50,10 +56,6 @@ Procedure:
 . . .
 
 > What is *design*?
-
-. . .
-
-> What is *coupling*?
 
 . . .
 
