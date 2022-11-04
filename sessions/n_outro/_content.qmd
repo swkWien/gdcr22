@@ -1,8 +1,8 @@
-# Conclusion
+# Our retreat is coming to an end...
 
 ---
 
-## 🤔 Final Retrospective
+## Final Retrospective 😉
 
 * What did you learn?
 * What did you enjoy?
@@ -11,30 +11,15 @@
 
 ---
 
-## [Feedback](TODO)
-
-Please take a few minutes, we appreciate your input.
-
-TODO:
-- Use a poster?
-- Add QR code for feedback form
-
----
-
-## 🤝 Join us on [Softwerkskammer.org](https://www.softwerkskammer.org/)
-
-(The Vienna chapter.)
-
-TODO:
-- Add QR code to website
-
----
-
 ## Global Day of Coderetreat
 
-*A day of deliberate practice and learning.*
+*A day of deliberate practice and learning!*
 
-<br/>
-<br/>
+🛒🧾🛍️ &nbsp;&nbsp; {{< fa arrow-right >}}  &nbsp;&nbsp; 💡🤝🤓 &nbsp;&nbsp;&nbsp;  {{< fa arrow-right >}}  &nbsp;&nbsp;🪢✂️🧵&nbsp;&nbsp;&nbsp;  {{< fa arrow-right >}}  &nbsp;&nbsp;🥳
 
-**Thank you for joining us today!** 🥳
+<br>
+
+Thank you for joining! Your [feedback](https://pads.c3w.at/form/#/2/form/view/tM+9tLh82H6yKGbg0kTiCjkU+6zRcJLTXZ-IWbUH99Y/) is greatly appreciated.
+
+![](sessions/n_outro/feedback_form_qr_code.svg){.r-stretch}
+
