@@ -1,0 +1,85 @@
+# Session 3
+a.k.a. Untangling the Knot
+
+Focus: Separation of concerns
+
+Facilitator: Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
+
+---
+
+## Separation of concerns - Why? 🤔 {.smaller}
+
+. . .
+
+> "the only available technique for effective ordering of one's thoughts, that I know of" ([Dijkstra, 1974](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD04xx/EWD447.html))
+
+. . .
+
+> Reduce complex problems into a series of manageable layers and components.
+
+. . .
+
+> More degrees of freedom (to introduce changes, reuse, deployment, ...)
+
+---
+
+## Separation of concerns - Design to make our life easier! 🥳 {.smaller}
+
+. . .
+
+**Reduce Coupling**: Separate things that are different into separate Modules.  
+
+*Coupling is measured by the number of relations between the modules.*
+*That is, the coupling increases as the number of calls between modules increase or the amount of shared data is large.*
+
+. . .
+
+**Improve Cohesion**: Put things that do the same thing together.
+
+*Functional, Sequential, Communicational, Procedural, Temporal, Logical, ...*
+
+. . .
+
+---
+
+## Separation of concerns - How? ⚙️ {.smaller}
+
+Identify "who is responsible for what?"  
+
+Hint: *We clarify responsibilities between `Teller` and `ShoppingCart`.*  
+Hint: *What about [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) violations in `ReceiptPrinter`? ("only talk to friends")*  
+
+---
+
+## Extra Challenge: Separation of concerns
+
+Optional, for experienced participants
+
+
+#### Use only keyboard shortcuts, no mouse 🐭 {.smaller}
+for navigation and refactoring
+
+
+#### Packages 📦 {.smaller}
+Introduce packages/modules and visualize their coupling
+
+---
+
+{{< include ../_pairing.qmd >}}
+
+---
+
+{{< include ../_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ../_retrospective.qmd >}}
+
+* Have you introduced Abstract Data Types (Interfaces)? If so, which?
+* How many tests would you have to alter?
+* Could you visualize the coupling of modules?
+
+---
+
+{{< include ../_short_break.qmd >}}
+
