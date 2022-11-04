@@ -27,9 +27,9 @@ Facilitator: Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
 
 . . .
 
-**Reduce Coupling**: Separate things that are different into separate classes.  
+**Reduce Coupling**: Separate things that are different into separate classes.
 
-*Coupling is measured by the number of relations between the classes.*  
+*Coupling is measured by the number of relations between the classes.*
 *That is, the coupling increases as the number of calls between classes increase or the amount of shared data is large.*
 
 . . .
@@ -42,26 +42,24 @@ Facilitator: Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
 
 ---
 
-## Separation of concerns - How? ⚙️ {.smaller}
+## Separation of concerns - How? ⚙️
 
-Identify "who is responsible for what?"  
+Identify "who is responsible for what?"
 
-Hint: *Clarify responsibilities between `Teller` and `ShoppingCart`.*
-Hint: *Separate view, formatting and logic.*
-Hint: *What about [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) violations in `ReceiptPrinter`? ("only talk to friends")*  
+Hints:
+
+* Clarify responsibilities between `Teller` and `ShoppingCart`.
+* Separate view, formatting and logic.
+* What about [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) violations in `ReceiptPrinter`? ("only talk to friends")
 
 ---
 
-## Extra Challenge: Separation of concerns
+## Extra Challenges
 
-Optional, for experienced participants
-
-
-#### Use only keyboard shortcuts, no mouse 🐭 {.smaller}
+### Use only keyboard shortcuts, no mouse 🐭
 for navigation and refactoring
 
-
-#### Visualize 📦 {.smaller}
+### Visualize 📦
 Visualize the coupling (e.g. Control / Data Coupling)
 
 ---
