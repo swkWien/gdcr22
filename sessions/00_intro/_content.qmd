@@ -82,8 +82,6 @@ Practice - reflect - improve! 🥳
 
 ## About us 👋
 
-<!-- TODO Update twitter?-->
-
 *Facilitators in order of appearance.*
 
 - Peter Kofler [@codecopkofler](https://twitter.com/codecopkofler)
@@ -91,7 +89,7 @@ Practice - reflect - improve! 🥳
   Patrick Scheibert
 - Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
 - Claus Aichinger [@clausaichinger](https://twitter.com/ClausAichinger)
-- Roland Germ
+- Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ---
 
