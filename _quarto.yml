@@ -1,6 +1,7 @@
 project:
   render:
     - "*.qmd"
+    - "!*private.qmd"
 
 format:
   revealjs:
