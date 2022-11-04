@@ -46,7 +46,8 @@ Facilitator: Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
 
 Identify "who is responsible for what?"  
 
-Hint: *We clarify responsibilities between `Teller` and `ShoppingCart`.*  
+Hint: *Clarify responsibilities between `Teller` and `ShoppingCart`.*
+Hint: *Separate view, formatting and logic.*
 Hint: *What about [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) violations in `ReceiptPrinter`? ("only talk to friends")*  
 
 ---
