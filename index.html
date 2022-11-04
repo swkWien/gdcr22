@@ -480,6 +480,7 @@
 </section>
 <section id="pair-programming" class="slide level2 center">
 <h2>Pair Programming 🤝</h2>
+<div class="fragment">
 <p>Roles:</p>
 <ul>
 <li>🧭 <strong>Navigator</strong> Giving directions, looking ahead</li>
@@ -490,31 +491,31 @@
 <li>Talk to each other</li>
 <li>Switch roles every <strong>5 minutes</strong></li>
 </ul>
+</div>
 </section>
 <section id="refactoring" class="slide level2 center">
 <h2>Refactoring 🔧</h2>
+<div class="fragment">
 <ul>
 <li><p>Improve code but don’t change behavior</p></li>
 <li><p>Don’t break interfaces</p></li>
 </ul>
+</div>
 </section>
 <section id="test-driven-development" class="slide level2 center">
 <h2>Test-driven Development 🧪</h2>
+<div class="fragment">
 <ul>
 <li><p>If you write new code, write a test first</p></li>
 <li><p>If you change code, is it covered by tests?</p></li>
 </ul>
+</div>
 </section>
 <section id="decoupled-design" class="slide level2 center">
 <h2>Decoupled Design 🤔</h2>
 <div class="fragment">
 <blockquote>
 <p>What is <em>design</em>?</p>
-</blockquote>
-</div>
-<div class="fragment">
-<blockquote>
-<p>What is <em>coupling</em>?</p>
 </blockquote>
 </div>
 <div class="fragment">
@@ -735,16 +736,136 @@
 <li>Could you visualize the coupling of classes?</li>
 </ul>
 </section>
+<section id="enjoy-your-lunch" class="slide level2 center">
+<h2>Enjoy Your Lunch! 🥗🌽🥬🥟🍛🧆</h2>
+</section></section>
+<section>
+<section id="session-4" class="title-slide slide level1 center">
+<h1>Session 4</h1>
+<p>Focus: Improve class design by applying principles</p>
+<p>Facilitator: Claus Aichinger <a href="https://twitter.com/ClausAichinger"><span class="citation" data-cites="clausaichinger">@clausaichinger</span></a></p>
+</section>
+<section id="requirements-change--" class="slide level2 center">
+<h2>Requirements Change :-/</h2>
+<p>Feature requests:</p>
+<ul>
+<li>Introduce special deals database</li>
+<li>Support HTML receipts</li>
+<li>Allow discounted bundles</li>
+<li>…</li>
+</ul>
+</section>
+<section id="what-now" class="slide level2 center">
+<h2>What now? 🪢👀</h2>
+<p><br></p>
+<blockquote>
+<p>Yes, decouplings sounds good. But… 🤔</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>How? 🤷</p>
+</blockquote>
+</section>
+<section id="apply-principles" class="slide level2 center">
+<h2>Apply principles!? 🪢✂️🧵</h2>
+<blockquote>
+<p>I’m not a great programmer; I’m just a good programmer with great habits.</p>
+</blockquote>
+<p><a href="https://en.wikiquote.org/wiki/Kent_Beck">Kent Beck</a> in <em>Refactoring: Improving the Design of Existing Code</em></p>
+</section>
+<section id="yes-improve-class-design" class="slide level2 center">
+<h2>Yes! Improve Class Design</h2>
+<p>Apply so called <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">SOLID</a> principles:</p>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">S</a></li><li><a href="#tabset-1-2">O</a></li><li><a href="#tabset-1-3">L</a></li><li><a href="#tabset-1-4">I</a></li><li><a href="#tabset-1-5">D</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p>The Single Responsibility Principle (SRP)</p>
+<blockquote>
+<p>A class should have one, and only one, reason to change.</p>
+</blockquote>
+<p>or</p>
+<blockquote>
+<p>A module [class] should be responsible to one, and only one, actor.</p>
+</blockquote>
+</div>
+<div id="tabset-1-2">
+<p>The Open Closed Principle (OCP)</p>
+<blockquote>
+<p>You should be able to extend a classes behavior, without modifying it.</p>
+</blockquote>
+</div>
+<div id="tabset-1-3">
+<p>The Liskov Substitution Principle (LSP)</p>
+<blockquote>
+<p>Derived classes must be substitutable for their base classes.</p>
+</blockquote>
+</div>
+<div id="tabset-1-4">
+<p>The Interface Segregation Principle (ISP)</p>
+<blockquote>
+<p>Make fine grained interfaces that are client specific.</p>
+</blockquote>
+</div>
+<div id="tabset-1-5">
+<p>The Dependency Inversion Principle (DIP)</p>
+<blockquote>
+<p>Depend on abstractions, not on concretions.</p>
+</blockquote>
+</div>
+</div>
+</div>
+</section>
+<section id="what-does-it-mean" class="slide level2 center">
+<h2>What does it mean? 🧐</h2>
+<p>For example:</p>
+<ul>
+<li>SRP: Split up</li>
+<li>OCP: Inject collaborators (dependencies) in constructor</li>
+<li>DIP: Express collaborators through interfaces</li>
+<li>ISP: Provide different interface depending on usage</li>
+<li>…</li>
+</ul>
+</section>
+<section id="decouple-using-solid" class="slide level2 center">
+<h2>Decouple using SOLID 🧩</h2>
+<p>And pave the way for new features…</p>
+</section>
+<section id="suggestion-srp-and-shoppingcart" class="slide level2 center">
+<h2>Suggestion: SRP and <code>ShoppingCart</code></h2>
+<p>Relates to previous session.</p>
+</section>
+<section id="suggestion-srp-and-shoppingcart.handleoffers" class="slide level2 center">
+<h2>Suggestion: SRP and <code>ShoppingCart.handleOffers()</code></h2>
+<p>Relates to feature request.</p>
+</section>
+<section id="suggestion-ocp-dip-and-supermarketcatalog" class="slide level2 center">
+<h2>Suggestion: OCP &amp; DIP and <code>SupermarketCatalog</code></h2>
+<p>Relates to feature request.</p>
+</section>
+<section id="suggestion-ocp-and-receiptprinter" class="slide level2 center">
+<h2>Suggestion: OCP and <code>ReceiptPrinter</code></h2>
+<p>Relates to feature request.</p>
+</section>
+<section id="find-a-partner-3" class="slide level2 center">
+<h2>Find a Partner! 👀</h2>
+</section>
+<section id="deliberate-practice-and-learning-4" class="slide level2 center">
+<h2>Deliberate Practice and Learning 🤓</h2>
+</section>
+<section id="retrospective-4" class="slide level2 center">
+<h2>Retrospective 🤔</h2>
+<ul>
+<li>Did you focus on a feature? Which?</li>
+<li>Did you focus on a class? Which?</li>
+<li>Which SOLID principle did you apply?</li>
+<li>How did “apply principle” influence your development?</li>
+</ul>
+</section>
 <section id="enjoy-the-break-2" class="slide level2 center">
 <h2>Enjoy the Break ☕</h2>
 <p><em>And be back in time.</em></p>
 </section></section>
-<section id="wip-session-4-allowing-for-change-decoupling-with-solid" class="title-slide slide level1 center">
-<h1>[WIP] Session 4: Allowing for Change / Decoupling with SOLID</h1>
-<p>Focus: Improve class design Strategy: Apply SOLID principles</p>
-<p>Facilitator: Claus Aichinger</p>
-</section>
-
 <section>
 <section id="session-5" class="title-slide slide level1 center">
 <h1>Session 5</h1>
@@ -780,13 +901,13 @@
 <li>Which domain does the <code>Printer</code> belong to?</li>
 </ul>
 </section>
-<section id="find-a-partner-3" class="slide level2 center">
+<section id="find-a-partner-4" class="slide level2 center">
 <h2>Find a Partner! 👀</h2>
 </section>
-<section id="deliberate-practice-and-learning-4" class="slide level2 center">
+<section id="deliberate-practice-and-learning-5" class="slide level2 center">
 <h2>Deliberate Practice and Learning 🤓</h2>
 </section>
-<section id="retrospective-4" class="slide level2 center">
+<section id="retrospective-5" class="slide level2 center">
 <h2>Retrospective 🤔</h2>
 <ul>
 <li>Which domains did you create ?</li>
