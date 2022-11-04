@@ -696,25 +696,28 @@
 <h2>Separation of concerns - Design to make our life easier! 🥳</h2>
 <div class="fragment">
 <p><strong>Reduce Coupling</strong>: Separate things that are different into separate classes.</p>
-<p><em>Coupling is measured by the number of relations between the classes.</em><br>
-<em>That is, the coupling increases as the number of calls between classes increase or the amount of shared data is large.</em></p>
+<p><em>Coupling is measured by the number of relations between the classes.</em> <em>That is, the coupling increases as the number of calls between classes increase or the amount of shared data is large.</em></p>
 </div>
 <div class="fragment">
 <p><strong>Improve Cohesion</strong>: Put things that do the same thing together.</p>
 <p><em>Functional, Sequential, Communicational, Procedural, Temporal, Logical, …</em></p>
 </div>
 </section>
-<section id="separation-of-concerns---how" class="slide level2 smaller center">
+<section id="separation-of-concerns---how" class="slide level2 center">
 <h2>Separation of concerns - How? ⚙️</h2>
 <p>Identify “who is responsible for what?”</p>
-<p>Hint: <em>Clarify responsibilities between <code>Teller</code> and <code>ShoppingCart</code>.</em> Hint: <em>Separate view, formatting and logic.</em> Hint: <em>What about <a href="https://en.wikipedia.org/wiki/Law_of_Demeter">Law of Demeter</a> violations in <code>ReceiptPrinter</code>? (“only talk to friends”)</em></p>
+<p>Hints:</p>
+<ul>
+<li>Clarify responsibilities between <code>Teller</code> and <code>ShoppingCart</code>.</li>
+<li>Separate view, formatting and logic.</li>
+<li>What about <a href="https://en.wikipedia.org/wiki/Law_of_Demeter">Law of Demeter</a> violations in <code>ReceiptPrinter</code>? (“only talk to friends”)</li>
+</ul>
 </section>
-<section id="extra-challenge-separation-of-concerns" class="slide level2 center">
-<h2>Extra Challenge: Separation of concerns</h2>
-<p>Optional, for experienced participants</p>
-<h4 class="smaller" id="use-only-keyboard-shortcuts-no-mouse">Use only keyboard shortcuts, no mouse 🐭</h4>
+<section id="extra-challenges-1" class="slide level2 center">
+<h2>Extra Challenges</h2>
+<h3 id="use-only-keyboard-shortcuts-no-mouse">Use only keyboard shortcuts, no mouse 🐭</h3>
 <p>for navigation and refactoring</p>
-<h4 class="smaller" id="visualize">Visualize 📦</h4>
+<h3 id="visualize">Visualize 📦</h3>
 <p>Visualize the coupling (e.g.&nbsp;Control / Data Coupling)</p>
 </section>
 <section id="find-a-partner-2" class="slide level2 center">
@@ -748,9 +751,10 @@
 <p>Focus: Separating a Domain into Bounded Contexts</p>
 <p>Facilitator: Roland Germ <a href="https://twitter.com/rolgerm"><span class="citation" data-cites="rolgerm">@rolgerm</span></a></p>
 </section>
-<section id="domain-and-bounded-contexts" class="slide level2 center">
+<section id="domain-and-bounded-contexts" class="slide level2 smaller center">
 <h2>Domain and Bounded Contexts</h2>
-<p>Bounded Context is a central pattern in Domain-Driven Design. DDD deals with large models by dividing them into different Bounded Contexts and being explicit about their interrelationships.</p>
+<p>Bounded Context is a central pattern in Domain-Driven Design.</p>
+<p>DDD deals with large models by dividing them into different Bounded Contexts and being explicit about their interrelationships.</p>
 
 <img data-src="sessions/06_separate_domains/SupermarketDomain.jpg" class="r-stretch"></section>
 <section id="anti-corruption-layers" class="slide level2 center">
@@ -769,7 +773,12 @@
 </section>
 <section id="extra-challenge-dont-share-the-product-between-domains" class="slide level2 center">
 <h2>Extra Challenge: Don’t share the Product between domains</h2>
-<p>The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product. * What is needed to identify a product in a domain? * Which domain does the Printer belong to?</p>
+<p>The <code>Product</code> is somehow a shared model.</p>
+<p>But in future the <code>Product</code> could be enhanced and each domain needs its own view or selected data of a <code>Product</code>.</p>
+<ul>
+<li>What is needed to identify a product in a domain?</li>
+<li>Which domain does the <code>Printer</code> belong to?</li>
+</ul>
 </section>
 <section id="find-a-partner-3" class="slide level2 center">
 <h2>Find a Partner! 👀</h2>
@@ -782,7 +791,7 @@
 <ul>
 <li>Which domains did you create ?</li>
 <li>Which dependencies do you have finally?</li>
-<li>How did name the ports and adapters?</li>
+<li>How did you name the ports and adapters?</li>
 <li>What constructs hindered you?</li>
 </ul>
 </section></section>
