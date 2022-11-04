@@ -80,5 +80,4 @@ Visualize the coupling (e.g. Control / Data Coupling)
 
 ---
 
-{{< include ../_short_break.qmd >}}
-
+{{< include ../_lunch_break.qmd >}}
