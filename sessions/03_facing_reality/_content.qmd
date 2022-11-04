@@ -1,6 +1,6 @@
 # Session 2
 
-Focus: Facing Reality
+Focus: Familiarize yourself with the code (and face reality).
 
 Facilitator: Patrick Scheibert, Katrin Heiderer
 
@@ -8,7 +8,7 @@ Facilitator: Patrick Scheibert, Katrin Heiderer
 
 ## Existing Code :-(
 
-*The code is there, we want to improve it.*
+The code is there, we want to improve it.
 
 ::: {.r-fit-text}
 [https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata](https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata)
@@ -28,21 +28,19 @@ Facilitator: Patrick Scheibert, Katrin Heiderer
 
 ## Tips
 
-* Start with small IDE Refactoring steps.
+* Start with small IDE refactoring steps.
 * Rename the variables so they are more meaningful.
-* Extract Methods to reduce complexity of the code.
+* Extract methods to reduce complexity of the code.
 
 ---
 
 ## Extra Challenges
 
-Optional, for experienced participants:
-
 ### One Level of Indentation
 
 Each method cannot contain statements that require more than one level of indentation (conditional statements, loops, etc)
 
-### Short methods
+### Short Methods
 
 Limit the number of statements permitted for a function to 5 lines.
 
@@ -66,7 +64,7 @@ Limit the number of statements permitted for a function to 5 lines.
 
 * Which refactorings did you do?
 
-* Which classnames/methodnames did you change?
+* Which class or method names did you change?
 
 * What was your experience in the pairs with different languages?
 

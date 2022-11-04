@@ -1,5 +1,4 @@
 # Session 3
-a.k.a. Untangling the Knot
 
 Focus: Separation of concerns
 
