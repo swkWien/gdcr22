@@ -40,19 +40,22 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ---
 
-## The journey to dependency inversion
+## To dependency inversion
 
 ![](sessions/06_separate_domains/step2.png)
+
 ---
 
-## The journey to ACL 
+## Anti-Corruption-Layer
 
 ![](sessions/06_separate_domains/step3.png)
+
 ---
 
-## The journey to multiple ACL
+## Multiple Anti-Corruption-Layer building a Hexagonal Architecture
 
 ![](sessions/06_separate_domains/step4.png)
+
 ---
 
 ## Tips
@@ -86,4 +89,5 @@ The Product is somehow a shared model. But in future the Product could be enhanc
 * Which dependencies do you have finally?
 * How did name the name the ports and adapters?
 * What constructs hindered you?
+* What do we achieve by applying a hexagonal architecture
 
