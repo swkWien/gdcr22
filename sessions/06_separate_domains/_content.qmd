@@ -8,7 +8,7 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ## Decoupling into functional Areas
 
-* Which grouping of the doamin did you identify in the 1st session today?
+* Which grouping of the domain did you identify in the 1st session today?
 * How should we split a domain in functional areas?
 
 ---
@@ -28,15 +28,31 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ---
 
-## A clear boundary between bounded contexts - the Anti-Corruption-Layer
+## Anti-Corruption-Layer - a clear boundary between bounded contexts
 
 ![](sessions/06_separate_domains/gateway-sketch.png)
 
 ---
 
-## The hexagonal architecture
+## The journey from direct dependencies
 
+![](sessions/06_separate_domains/step1.png)
 
+---
+
+## The journey to dependency inversion
+
+![](sessions/06_separate_domains/step2.png)
+---
+
+## The journey to ACL 
+
+![](sessions/06_separate_domains/step3.png)
+---
+
+## The journey to multiple ACL
+
+![](sessions/06_separate_domains/step4.png)
 ---
 
 ## Tips
@@ -50,6 +66,7 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 ## Extra Challenge: Don't share the Product between domains
 
 The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product.
+
 * What is needed to identify a product in a domain?
 * Which domain does the Printer belong to?
 
