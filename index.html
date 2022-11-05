@@ -883,15 +883,30 @@
 <p>Focus: Separating a Domain into Bounded Contexts</p>
 <p>Facilitator: Roland Germ <a href="https://twitter.com/rolgerm"><span class="citation" data-cites="rolgerm">@rolgerm</span></a></p>
 </section>
-<section id="domain-and-bounded-contexts" class="slide level2 smaller center">
+<section id="decoupling-into-functional-areas" class="slide level2 center">
+<h2>Decoupling into functional Areas</h2>
+<ul>
+<li>Which grouping of the doamin did you identify in the 1st session today?</li>
+<li>How should we split a domain in functional areas?</li>
+</ul>
+</section>
+<section id="domain-and-bounded-contexts" class="slide level2 center">
 <h2>Domain and Bounded Contexts</h2>
-<p>Bounded Context is a central pattern in Domain-Driven Design.</p>
-<p>DDD deals with large models by dividing them into different Bounded Contexts and being explicit about their interrelationships.</p>
+<ul>
+<li>A Domain consists the whole model</li>
+<li>Large models are divided into subdomains or bounded contexts driven by separating business needs</li>
+<li>A bounded context is a projection of the problem space into the solution space</li>
+<li>Code that combines two bounded contexts gets convoluted because it’s mixing two separate vocabularies together (“Martin Fowler”).</li>
+</ul>
+</section>
+<section id="bounded-contexts-of-the-supermarket-domain" class="slide level2 center">
+<h2>Bounded Contexts of the Supermarket Domain</h2>
 
 <img data-src="sessions/06_separate_domains/SupermarketDomain.jpg" class="r-stretch"></section>
-<section id="anti-corruption-layers" class="slide level2 center">
-<h2>Anti-Corruption-Layers</h2>
-</section>
+<section id="a-clear-boundary-between-bounded-contexts---the-anti-corruption-layer" class="slide level2 center">
+<h2>A clear boundary between bounded contexts - the Anti-Corruption-Layer</h2>
+
+<img data-src="sessions/06_separate_domains/gateway-sketch.png" class="r-stretch"></section>
 <section id="the-hexagonal-architecture" class="slide level2 center">
 <h2>The hexagonal architecture</h2>
 </section>
@@ -905,12 +920,7 @@
 </section>
 <section id="extra-challenge-dont-share-the-product-between-domains" class="slide level2 center">
 <h2>Extra Challenge: Don’t share the Product between domains</h2>
-<p>The <code>Product</code> is somehow a shared model.</p>
-<p>But in future the <code>Product</code> could be enhanced and each domain needs its own view or selected data of a <code>Product</code>.</p>
-<ul>
-<li>What is needed to identify a product in a domain?</li>
-<li>Which domain does the <code>Printer</code> belong to?</li>
-</ul>
+<p>The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product. * What is needed to identify a product in a domain? * Which domain does the Printer belong to?</p>
 </section>
 <section id="find-a-partner-4" class="slide level2 center">
 <h2>Find a Partner! 👀</h2>
@@ -923,7 +933,7 @@
 <ul>
 <li>Which domains did you create ?</li>
 <li>Which dependencies do you have finally?</li>
-<li>How did you name the ports and adapters?</li>
+<li>How did name the name the ports and adapters?</li>
 <li>What constructs hindered you?</li>
 </ul>
 </section></section>
