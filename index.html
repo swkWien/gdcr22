@@ -886,7 +886,7 @@
 <section id="decoupling-into-functional-areas" class="slide level2 center">
 <h2>Decoupling into functional Areas</h2>
 <ul>
-<li>Which grouping of the doamin did you identify in the 1st session today?</li>
+<li>Which grouping of the domain did you identify in the 1st session today?</li>
 <li>How should we split a domain in functional areas?</li>
 </ul>
 </section>
@@ -903,13 +903,28 @@
 <h2>Bounded Contexts of the Supermarket Domain</h2>
 
 <img data-src="sessions/06_separate_domains/SupermarketDomain.jpg" class="r-stretch"></section>
-<section id="a-clear-boundary-between-bounded-contexts---the-anti-corruption-layer" class="slide level2 center">
-<h2>A clear boundary between bounded contexts - the Anti-Corruption-Layer</h2>
+<section id="anti-corruption-layer---a-clear-boundary-between-bounded-contexts" class="slide level2 center">
+<h2>Anti-Corruption-Layer - a clear boundary between bounded contexts</h2>
 
 <img data-src="sessions/06_separate_domains/gateway-sketch.png" class="r-stretch"></section>
-<section id="the-hexagonal-architecture" class="slide level2 center">
-<h2>The hexagonal architecture</h2>
+<section id="the-journey-from-direct-dependencies" class="slide level2 center">
+<h2>The journey from direct dependencies</h2>
+
+<img data-src="sessions/06_separate_domains/step1.png" class="r-stretch"></section>
+<section id="the-journey-to-dependency-inversion" class="slide level2 center">
+<h2>The journey to dependency inversion</h2>
+
+<img data-src="sessions/06_separate_domains/step2.png" class="r-stretch"></section>
+<section id="the-journey-to-acl" class="slide level2 center">
+<h2>The journey to ACL</h2>
 </section>
+<section id="section" class="slide level2 center">
+<h2><img data-src="sessions/06_separate_domains/step3.png"></h2>
+</section>
+<section id="the-journey-to-multiple-acl" class="slide level2 center">
+<h2>The journey to multiple ACL</h2>
+
+<img data-src="sessions/06_separate_domains/step4.png" class="r-stretch"></section>
 <section id="tips-1" class="slide level2 center">
 <h2>Tips</h2>
 <ul>
@@ -920,7 +935,11 @@
 </section>
 <section id="extra-challenge-dont-share-the-product-between-domains" class="slide level2 center">
 <h2>Extra Challenge: Don’t share the Product between domains</h2>
-<p>The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product. * What is needed to identify a product in a domain? * Which domain does the Printer belong to?</p>
+<p>The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product.</p>
+<ul>
+<li>What is needed to identify a product in a domain?</li>
+<li>Which domain does the Printer belong to?</li>
+</ul>
 </section>
 <section id="find-a-partner-4" class="slide level2 center">
 <h2>Find a Partner! 👀</h2>
