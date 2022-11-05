@@ -6,22 +6,36 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ---
 
-## Domain and Bounded Contexts {.smaller}
+## Decoupling into functional Areas
 
-Bounded Context is a central pattern in Domain-Driven Design.
+* Which grouping of the doamin did you identify in the 1st session today?
+* How should we split a domain in functional areas?
 
-DDD deals with large models by dividing them into different
-Bounded Contexts and being explicit about their interrelationships.
+---
+
+## Domain and Bounded Contexts
+
+* A Domain consists the whole model
+* Large models are divided into subdomains or bounded contexts driven by separating business needs
+* A bounded context is a projection of the problem space into the solution space
+* Code that combines two bounded contexts gets convoluted because it's mixing two separate vocabularies together ("Martin Fowler"). 
+
+---
+
+## Bounded Contexts of the Supermarket Domain
 
 ![](sessions/06_separate_domains/SupermarketDomain.jpg)
 
 ---
 
-## Anti-Corruption-Layers
+## A clear boundary between bounded contexts - the Anti-Corruption-Layer
+
+![](sessions/06_separate_domains/gateway-sketch.png)
 
 ---
 
 ## The hexagonal architecture
+
 
 ---
 
@@ -35,12 +49,9 @@ Bounded Contexts and being explicit about their interrelationships.
 
 ## Extra Challenge: Don't share the Product between domains
 
-The `Product` is somehow a shared model.
-
-But in future the `Product` could be enhanced and each domain needs its own view or selected data of a `Product`.
-
+The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product.
 * What is needed to identify a product in a domain?
-* Which domain does the `Printer` belong to?
+* Which domain does the Printer belong to?
 
 ---
 
@@ -56,5 +67,6 @@ But in future the `Product` could be enhanced and each domain needs its own view
 
 * Which domains did you create ?
 * Which dependencies do you have finally?
-* How did you name the ports and adapters?
+* How did name the name the ports and adapters?
 * What constructs hindered you?
+
